@@ -35,7 +35,7 @@ function betweenTime(seconds){
 
     if(hours > 0){
         result = result +  hours + " hour ";
-    }
+    } 
 
     if(day > 0){
         result = result +  day + " day ";
