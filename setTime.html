@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Set Time</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="setTime.css">
+    </head>
+    <body>
+        <div class="time-counting">
+            <div class="question">
+                <div>
+                    <p>How many time is between</p>
+                </div>
+            </div>
+            <div class="from">
+                <div>
+                    <p>Choose time from</p>
+                </div>
+                <div>
+                    <label for="choose-starting-time">Choose a time for your appointment:</label>
+                    <input type="datetime-local" id="choose-starting-time"
+                    name="choose-starting-time" value=""
+                    min="1970-01-01T00:00" max="285615-12-31T23:59">
+                </div>
+            </div>
+            <div class="till">
+                <div>
+                    <p>Choose time till</p>
+                </div>
+                <div></div>
+            </div>
+            <div class="times-left">
+                <div>
+                    <p>Times left</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+
+        <script src="setTime.js"></script>
+    </body>
+</html>
